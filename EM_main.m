@@ -39,7 +39,7 @@ classifier = EM(Centers,cluster_data);
 step = 1;
 mean_error = Inf;
 
-% Rus the EM-Alorithm till the Error in Approximated mean
+% Run the EM-Alorithm till the Error in Approximated mean
 % of clusters Converges
 
 while mean_error > 1e-4
